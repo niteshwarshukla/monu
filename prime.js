@@ -1,17 +1,14 @@
 let num = 10;
 var isPrimeNumber = true;
-for (let i=2; i<num; i++);{
-if(num%i==0)
+for (let i=2; i<num; i++){
+if(num%i==0){
  isPrimeNumber = false;
+ break;}
 }
-{
-if isPrimeNumber == true){
-console.log (${num} is a prime number);
 
+if (isPrimeNumber == true){
+console.log(num,"Prime number");
 } 
 else {
- console.log(${num} is not a prime no);
+ console.log(num,"is not a Prime number ");
 } 
-
-
-console.log ("prime number")
